@@ -4,7 +4,7 @@ This week, as part of Module 9 in Foundation of Programming (Python) course, I l
 
 ## The TestHarness Module
 The TestHarness module main objective was to test the Data, Processing and Presentation layer classes. At the start of the module, there are “import” directives to load the DataClasses, ProcessingClasses and IOClasses modules. The DataClasses module contains the Person Class and the Employee Class, which inherits from the Person Class. Both classes were tested along with the FileProcessor class contained within the ProcessingClasses module. The tests consisted on using a workflow that:
-*	Created two object instances from each class
+*	  Created two object instances from each class
 *		Printed their string representation in console along with their class type
 *		Saved the objects into a file
 *		Reloaded the objects from the file into a list of string data
